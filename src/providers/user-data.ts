@@ -6,6 +6,7 @@ import { Storage } from '@ionic/storage';
 
 @Injectable()
 export class UserData {
+  /* CGR - note that TS Styleguides say DO NOT prefix private members with _. */
   _favorites = [];
   HAS_LOGGED_IN = 'hasLoggedIn';
 
